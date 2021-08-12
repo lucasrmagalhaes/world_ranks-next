@@ -1,10 +1,18 @@
-import Layout from '../components/Layout/Layout'
+import Layout from '../components/Layout'
+import SearchInput from '../components/SearchInput'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home({ countries }) {
   console.log(countries);
   
-  return <Layout>main</Layout>;
+  return (
+    <Layout>
+      <div className={styles.counts}>Found {countries.length}</div>
+
+      <SearchInput placeholder="Filter by Name, Region or SubRegion" />
+    </Layout>
+  )
 }
 
 export const getStaticProps = async () => {

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+
 import styles from './Layout.module.css';
 
 const Layout = ({ children, title = "World Ranks" }) => {
