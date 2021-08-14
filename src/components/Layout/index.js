@@ -31,4 +31,4 @@ const Layout = ({ children, title = "World Ranks" }) => {
   )
 }
 
-export default Layout
+export { Layout }

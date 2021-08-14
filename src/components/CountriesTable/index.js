@@ -94,4 +94,4 @@ const CountriesTable = ({ countries }) => {
   )
 }
 
-export default CountriesTable;
+export { CountriesTable }

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import CountriesTable from '../components/CountriesTable';
-import Layout from '../components/Layout'
-import SearchInput from '../components/SearchInput'
+import { CountriesTable } from '../components/CountriesTable';
+import { Layout } from '../components/Layout'
+import { SearchInput } from '../components/SearchInput'
 
 import styles from '../styles/Home.module.css'
 

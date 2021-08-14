@@ -11,4 +11,4 @@ const SearchInput = ({ ...rest }) => {
   )
 }
 
-export default SearchInput;
+export { SearchInput }
