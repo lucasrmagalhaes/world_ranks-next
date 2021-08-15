@@ -45,6 +45,8 @@
 .details_panel_heading {
   padding: 20px;
   padding-bottom: 0;
+  
+  margin: 0;
 }
 
 .details_panel_row {
@@ -81,4 +83,26 @@
 .details_panel_borders_label {
   color: var(--text-color-secondary);
   margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 720px) {
+  .container {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .container_left {
+    grid-column: 1 / span 4;
+  }
+
+  .container_right {
+    grid-column: 5 / span 8;
+  }
 }
