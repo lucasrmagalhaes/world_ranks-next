@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Layout } from '../../components/Layout';
 
-import styles from './Countries.module.css';
+import styles from './Country.module.css';
 
 const getCountry = async (id) => {
   const res = await fetch(
